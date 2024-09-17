@@ -1,0 +1,195 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    perspective: 700px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+nav{
+    width: 100%;
+    height: 60px;
+    background-color: rgba(27, 26, 26, 0.9);
+    position: fixed;
+    z-index: 100;
+}
+nav .name-nav{
+    width: 30%;
+    font-size: 45px;
+    text-transform: uppercase;
+    color: rgb(6, 157, 184);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    padding-top: 3px;
+    float: left;
+    position: relative;
+}
+.cenema{
+    font-size: 50px;
+    color:  rgb(6, 157, 184);
+    left: 102px;
+    position: absolute;
+    top: 5px;
+}
+
+nav .navlist{
+    float: left;
+    width: 60%;
+    margin-left: 10%;
+}
+
+.navlist li{
+    width: 20%;
+    list-style: none;
+    margin: auto;
+    font-size: 25px;
+    text-transform: capitalize;
+    float: left;
+    padding-top: 17px;
+    color: #fff;
+}
+.line{
+    width: 70px;
+    height: 5px;
+    background-color: rgb(10, 115, 235);
+    border-radius: 10px;
+}
+main{
+    padding-top: 150px;
+}
+main h1{
+    text-align: center;
+    text-transform:uppercase;
+    font-size: 40px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.line-under{
+    width: 90px;
+    height: 5px;
+    background-color: rgb(10, 115, 235);
+    border-radius: 10px;
+    margin: auto;
+
+}
+.clear{
+    clear: both;
+}
+section , .front , .back{
+    width: 25%;
+    height: 700px; 
+    border-radius: 20px;
+    border: 1px solid rgb(6, 157, 184);
+}
+.parent{
+    width: 100%;
+}
+section{
+    float: left;
+    margin-left: 6.25%;
+    position: relative;
+    margin-bottom: 50px;
+    margin-top: 100px;
+    transform-style: preserve-3d;
+    transition: 1s;
+}
+.front , .back{
+    position: absolute;
+}
+.front{
+    backface-visibility: hidden;
+    z-index: 1;
+    width: 100%;
+}
+.back{
+    transform: rotatey(180deg);
+    background-color: rgb(44, 43, 43);
+    width: 100%;
+}
+section:hover{
+    transform: rotateY(180deg);
+}
+.front1{
+    background-image: url("../images/download\ \(2\).jpeg");
+    background-size: cover;
+}
+.front2{
+    background-image: url("../images/download\ \(3\).jpeg");
+    background-size: cover;
+}
+.front3{
+    background-image: url("../images/download\ \(4\).jpeg");
+    background-size: cover;
+}
+.front4{
+    background-image: url("../images/download\ \(5\).jpeg");
+    background-size: cover;
+}
+.front5{
+    background-image: url("../images/images\ \(20\).jpeg");
+    background-size: cover;
+}
+.front6{
+    background-image: url("../images/images\ \(21\).jpeg");
+    background-size: cover;
+}
+.front7{
+    background-image: url("../images/download\ \(6\).jpeg");
+    background-size: cover;
+}
+.front8{
+    background-image: url("../images/download\ \(7\).jpeg");
+    background-size: cover;
+}
+.front9{
+    background-image: url("../images/images\ \(22\)~2.jpeg");
+    background-size: cover;
+}
+.front10{
+    background-image: url("../images/download\ \(8\).jpeg");
+    background-size: cover;
+}
+
+.lastsection{
+    margin-left: 37.5%;
+}
+
+.back h2{
+    font-size: 35px;
+    text-align: center;
+    padding:50px 20px 3px;
+    text-transform: capitalize;
+    color: #fff;
+}
+.back table{
+    color: #fff;
+    width: 100%;
+    margin-top: 80px;
+    text-align: center;
+    text-transform: capitalize;
+    height:70% ;
+}
+
+.back table tbody tr th{
+    font-size: 30px;
+}
+.back table tbody tr td{
+    font-size: 25px;
+    color: rgb(6, 157, 184) ;
+}
+tr {
+    position: relative;
+}
+.star {
+    color: gold;
+    font-size: 23px;
+    position: absolute;
+    left: 240px;
+}
+.star1{
+    left: 280px;
+}
+.star2{
+    left: 250px;
+}
